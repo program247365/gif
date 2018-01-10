@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "deploy": "cd gatsby-site; gatsby build && now -n 'lulzgif' public/ --static"
+    "deploy": "cd gatsby-site; gatsby build && now -n 'lulzgif' public/ --static && now alias `pbpaste` lulzgif.party"
   },
   "repository": {
     "type": "git",
