@@ -1,0 +1,18 @@
+{
+  "name": "lulzgif",
+  "version": "1.0.0",
+  "description": "Where I can store and link to all my gifs.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "cd gatsby-site; gatsby build && now -n 'lulzgif' public/ --static"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@bitbucket.org/Program247365/lulzgif.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/Program247365/lulzgif#readme"
+}
