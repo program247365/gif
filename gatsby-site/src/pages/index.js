@@ -1,6 +1,7 @@
 import React from "react"
 import {Helmet} from "react-helmet";
 import { withPrefix } from 'gatsby-link';
+import { lazysizes } from 'lazysizes';
 
 export default ({ data }) => {
   return (
@@ -21,7 +22,7 @@ export default ({ data }) => {
                             todo create copy of image url
                             using https://clipboardjs.com/
                         */}
-                        <img src={__PATH_PREFIX__ + node.relativePath}   alt={node.name + '.' + node.extension} className="w-100 db outline black-10 grow"/>
+                        <img data-src={__PATH_PREFIX__ + node.relativePath} alt={node.name + '.' + node.extension} className="lazyload w-100 db outline black-10 grow"/>
                         <dl className="mt2 f6 lh-copy">
                             <dd className="ml0 black truncate w-100" data-clipboard-target={index + 'copyme'}>{node.name + '.' + node.extension}</dd>
                             <dd className="ml0 gray truncate w-100">{node.prettySize}</dd>
