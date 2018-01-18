@@ -1,7 +1,6 @@
 import React from "react"
 import {Helmet} from "react-helmet";
 import { withPrefix } from 'gatsby-link';
-import { lazysizes } from '../.././node_modules/lazysizes/lazysizes-umd.min.js';
 
 export default ({ data }) => {
   return (
@@ -11,6 +10,7 @@ export default ({ data }) => {
             <title>🎉 Lulz Gif Party! (Beta) 🎉</title>
             <meta name="viewport" content="width=device-width, initial-scale=1"/>
             <link rel="stylesheet" href="https://unpkg.com/tachyons/css/tachyons.min.css"/>
+            <script src="https://unpkg.com/lazysizes@4.0.1/lazysizes.min.js" async=""/>
         </Helmet>
         <h2 className="w-100 center avenir tc-l ph3 ph4-ns pt4 center">🎉 Lulz Gif Party! 🎉</h2>
         <div className="cf pa2">

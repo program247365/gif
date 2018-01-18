@@ -12,7 +12,6 @@
     "gatsby-link": "^1.6.32",
     "gatsby-plugin-react-helmet": "^2.0.3",
     "gatsby-source-filesystem": "^1.5.11",
-    "lazysizes": "^4.0.1",
     "react-helmet": "^5.2.0"
   }
 }
