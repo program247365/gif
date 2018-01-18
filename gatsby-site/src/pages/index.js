@@ -7,7 +7,7 @@ export default ({ data }) => {
     <article style={{color: "#4D4D4F"}} className="bg-light-yellow">
         <Helmet>
             <meta charSet="utf-8" />
-            <title>🎉 Lulz Gif Party! (Beta) 🎉</title>
+            <title>Lulz Gif Party! (Beta) 🎉</title>
             <meta name="viewport" content="width=device-width, initial-scale=1"/>
             <link rel="stylesheet" href="https://unpkg.com/tachyons/css/tachyons.min.css"/>
             <script src="https://unpkg.com/lazysizes@4.0.1/lazysizes.min.js" async=""/>
