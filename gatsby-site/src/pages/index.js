@@ -1,7 +1,7 @@
 import React from "react"
 import {Helmet} from "react-helmet";
 import { withPrefix } from 'gatsby-link';
-import { lazysizes } from 'lazysizes';
+import { lazysizes } from '../.././node_modules/lazysizes/lazysizes-umd.min.js';
 
 export default ({ data }) => {
   return (
