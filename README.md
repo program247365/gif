@@ -2,7 +2,7 @@
 
 Where I store and link to all my reaction GIFs.
 
-Browse the collection at [gifs.kbr.sh](https://gifs.kbr.sh).
+Browse the collection at [gif.kbr.sh](https://gif.kbr.sh).
 
 ### Usage
 
